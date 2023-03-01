@@ -1,6 +1,6 @@
-d = 'aeiou'
-c = input("enter a letter ")
-if c in d:
-    print("is a vowel")
+vowels = ['a', 'e', 'i', 'o', 'u']
+c = input("enter the desire letter ")
+if c in vowels:
+    print( c, "is a vowel")
 else:
-    print("is not a vowel")    
+    print( c, "is a consonant")    
